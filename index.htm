@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-con">
+        <div class="login-title">
+          <span>login</span>
+        </div>
+        <div class="input-wrap">
+          <input type="text" id="user" class="input-field" required />
+          <label for="user" class="label">Username</label>
+          <i class="fa-regular fa-user icon"></i>
+        </div>
+        <div class="input-wrap">
+          <input type="password" id="pass" class="input-field" required />
+          <label for="user" class="label">Password</label>
+          <i class="fa-solid fa-lock icon"></i>
+        </div>
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" />
+            <label for="remember" class="">Remember Me</label>
+          </div>
+          <div class="forgot">
+            <a
+              href="#"
+              onclick="alert('Dear user, we are working on the page. it would be available shortly')"
+              >Fogot Password</a
+            >
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <input
+            type="submit"
+            class="input-submit"
+            value="login"
+            onclick="alert('Dear user, we are working on the page. it would be available shortly')"
+          />
+        </div>
+        <div class="signup">
+          <span
+            >Don't have an account ?
+            <a
+              href="#"
+              onclick="alert('Dear user, we are working on the page. it would be available shortly')"
+              >Sign Up</a
+            ></span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
